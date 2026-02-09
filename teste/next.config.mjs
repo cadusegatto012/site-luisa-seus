@@ -1,14 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  /* Configurações do Next.js aqui */
+};
 
-:root {
---foreground-rgb: 0, 0, 0;
---background-start-rgb: 214, 219, 220;
---background-end-rgb: 255, 255, 255;
-}
-
-body {
-color: rgb(var(--foreground-rgb));
-background: white;
-}
+export default nextConfig;
